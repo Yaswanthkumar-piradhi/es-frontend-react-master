@@ -1,0 +1,53 @@
+.Home{
+    text-align: center;
+    background-color: #80808040;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+    .Home{
+        max-width: 100%;
+    }
+}
+
+.feat{
+    height:50vh;
+    /* background-color: blueviolet; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    text-align: center;
+    border-bottom: 1px solid #808080;
+}
+.elec{
+    /* height: 40vh; */
+    /* background-color: aquamarine; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    /* overflow-x: scroll; */
+    border-bottom: 1px solid #808080;
+}
+.clothes{
+    height: 40vh;
+    /* background-color: wheat; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #808080;
+}
+.toys{
+    height: 40vh;
+    /* background-color: #ffa334; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

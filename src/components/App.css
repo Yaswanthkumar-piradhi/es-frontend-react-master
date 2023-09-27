@@ -1,0 +1,70 @@
+/* styles for the main container */
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  /* styles for the header */
+  .App h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* styles for the form */
+  .App form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* styles for the input field */
+  .App input {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  /* styles for the add task button */
+  .App button {
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0099e5;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* styles for the list of tasks */
+  .App ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* styles for each task item */
+  .App li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  /* styles for the remove task button */
+  .App button {
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
